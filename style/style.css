@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Work Sans", sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hero{
+    height: 615px;
+
+    background-image: url("../assets/hero-bg.png");
+
+    
+
+    /* background-image: url("biriyani.png"); */
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero.hero-content{
+    width: 685px;
+    
+}
+#hero.hero-content.subtitle{
+    color: white;
+    font-family: work sans;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+}
+#hero .hero-content.tittle{
+    color: white;
+    font-family: work sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#hero .hero-content .description{
+    color: white;
+    font-family: work sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.btn{
+    padding: 14px 18px 14px 18px;
+    color: white;
+    font-family: work sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: green;
+    border: none;
+}
+.btn.btn-container{
+    text-align: center;
+}
